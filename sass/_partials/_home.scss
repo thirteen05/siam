@@ -1,14 +1,41 @@
 #section-home-example{
-  background-image: url(images/thirteen05-blue-square-bg.jpg);
-  height: 100vh;
   
   #logo{
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
-    
+    width: auto;
+    height: 30vh;
   }
 
     a{
         color: $main-color;
+    }
+    
+    .sidebar{
+        background: #000000;
+        height: 100vh;
+        position: fixed;
+        padding-top: 3%;
+        width: 16.66667%;
+        
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-bottom: 4vh;
+            
+            a{
+                color: #bfa061;
+                font-weight: bold;
+                font-family: "Times New Roman";
+                font-size: 2.8vh;
+                padding: 4px 0;
+                display: block;
+            }
+        }
+    }
+    .homeframe1{
+        background: url('/wp-content/themes/siam/images/homeframe1-scaled') no-repeat;
+        background-size: cover;
+        height: 100vh;
     }
 }

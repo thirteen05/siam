@@ -7142,14 +7142,37 @@ button.close {
 a {
   color: #333; }
 
-/* line 1, sass/_partials/_home.scss */
-#section-home-example {
-  background-image: url(images/thirteen05-blue-square-bg.jpg);
+/* line 3, sass/_partials/_home.scss */
+#section-home-example #logo {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  width: auto;
+  height: 30vh; }
+/* line 10, sass/_partials/_home.scss */
+#section-home-example a {
+  color: #333; }
+/* line 14, sass/_partials/_home.scss */
+#section-home-example .sidebar {
+  background: #000000;
+  height: 100vh;
+  position: fixed;
+  padding-top: 3%;
+  width: 16.66667%; }
+  /* line 21, sass/_partials/_home.scss */
+  #section-home-example .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4vh; }
+    /* line 26, sass/_partials/_home.scss */
+    #section-home-example .sidebar ul a {
+      color: #bfa061;
+      font-weight: bold;
+      font-family: "Times New Roman";
+      font-size: 2.8vh;
+      padding: 4px 0;
+      display: block; }
+/* line 36, sass/_partials/_home.scss */
+#section-home-example .homeframe1 {
+  background: url("/wp-content/themes/siam/images/homeframe1-scaled") no-repeat;
+  background-size: cover;
   height: 100vh; }
-  /* line 5, sass/_partials/_home.scss */
-  #section-home-example #logo {
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); }
-  /* line 11, sass/_partials/_home.scss */
-  #section-home-example a {
-    color: #333; }
