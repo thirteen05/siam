@@ -7142,28 +7142,34 @@ button.close {
 a {
   color: #333; }
 
+/* line 4, sass/_partials/_fonts.scss */
+body {
+  font-family: "Times New Roman"; }
+
 /* line 3, sass/_partials/_home.scss */
 #section-home-example #logo {
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   width: auto;
-  height: 30vh; }
-/* line 10, sass/_partials/_home.scss */
+  height: 27vh;
+  margin-bottom: 1.5vw; }
+/* line 11, sass/_partials/_home.scss */
 #section-home-example a {
   color: #333; }
-/* line 14, sass/_partials/_home.scss */
+/* line 15, sass/_partials/_home.scss */
 #section-home-example .sidebar {
   background: #000000;
   height: 100vh;
   position: fixed;
-  padding-top: 3%;
-  width: 16.66667%; }
-  /* line 21, sass/_partials/_home.scss */
+  padding-top: 2vw;
+  width: 16.97%;
+  z-index: 99; }
+  /* line 23, sass/_partials/_home.scss */
   #section-home-example .sidebar ul {
     list-style: none;
     padding: 0;
     margin-bottom: 4vh; }
-    /* line 26, sass/_partials/_home.scss */
+    /* line 28, sass/_partials/_home.scss */
     #section-home-example .sidebar ul a {
       color: #bfa061;
       font-weight: bold;
@@ -7171,8 +7177,68 @@ a {
       font-size: 2.8vh;
       padding: 4px 0;
       display: block; }
-/* line 36, sass/_partials/_home.scss */
+/* line 38, sass/_partials/_home.scss */
 #section-home-example .homeframe1 {
-  background: url("/wp-content/themes/siam/images/homeframe1-scaled") no-repeat;
+  background: url("images/homeframe1-scaled.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh; }
+/* line 44, sass/_partials/_home.scss */
+#section-home-example .homeframe2 {
+  background: url("images/homeframe2-scaled.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh; }
+/* line 50, sass/_partials/_home.scss */
+#section-home-example .homeframe3 {
+  background: url("images/homeframe3-scaled.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh; }
+/* line 56, sass/_partials/_home.scss */
+#section-home-example .homeframe4 {
+  background: url("images/homeframe4-scaled.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh; }
+/* line 62, sass/_partials/_home.scss */
+#section-home-example .homeframe5 {
+  background: url("images/homeframe5-scaled.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh; }
+/* line 68, sass/_partials/_home.scss */
+#section-home-example .homeframe6 {
+  background: url("images/homeframe6-scaled.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+/* line 74, sass/_partials/_home.scss */
+#section-home-example .quote {
+  color: #bfa061;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5rem;
+  padding: 20px 15%; }
+/* line 81, sass/_partials/_home.scss */
+#section-home-example .home-cta {
+  background: url("images/white-texture.png") no-repeat;
+  background-size: cover;
+  padding: 0 5%; }
+  /* line 86, sass/_partials/_home.scss */
+  #section-home-example .home-cta .cta {
+    padding: 0 10%; }
+  /* line 90, sass/_partials/_home.scss */
+  #section-home-example .home-cta img {
+    width: 100%;
+    height: auto; }
+  /* line 95, sass/_partials/_home.scss */
+  #section-home-example .home-cta h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4.5rem;
+    color: black; }
+  /* line 102, sass/_partials/_home.scss */
+  #section-home-example .home-cta p {
+    font-weight: bold;
+    font-size: 2.3rem; }
