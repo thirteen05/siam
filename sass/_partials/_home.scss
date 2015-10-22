@@ -1,16 +1,29 @@
-#section-home-example{
-  
-  #logo{
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
-    width: auto;
-    height: 27vh;
-    margin-bottom: 1.5vw;
-  }
-
-    a{
-        color: $main-color;
+.home{
+    
+    .ROC_dropCart{
+        margin-right: 0;
     }
+    
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .nopadding{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+    
+    #section-home-example{
+  
+        #logo{
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+        -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+        width: auto;
+        height: 27vh;
+        margin-bottom: 1.5vw;
+        }
     
     .sidebar{
         background: #000000;
@@ -81,10 +94,10 @@
     .home-cta{
         background: url('images/white-texture.png') no-repeat;
         background-size: cover;
-        padding: 0 5%;
+        padding: 2% 5%;
         
         .cta{
-            padding: 0 10%;
+            padding: 0 12%;
         }
         
         img{

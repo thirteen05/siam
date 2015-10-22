@@ -1,7 +1,7 @@
 <section id="section-home-example">
   <div class="container-full">
     <div class="row">
-        <div class="col-md-2 text-center">
+        <div class="col-md-2 text-center nopadding">
             <div class="sidebar">
                 <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-header.svg" width="300" />
                 <?php wp_nav_menu(); ?>
@@ -29,7 +29,7 @@
                 </ul>
             </div>
         </div>
-      <div class="col-md-10 text-center">
+      <div class="col-md-10 text-center nopadding">
         <div class="main-section">
             <div class="homeframe1"></div> 
             <div class="quote">
@@ -47,14 +47,14 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 nopadding">
                     <div class="cta">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/home-body.png" />
                         <h2>Body</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 nopadding">
                     <div class="cta">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/home-hair.png" />
                         <h2>Hair</h2>
@@ -76,11 +76,16 @@
             </div>
             <div class="homeframe6"></div>
             <footer>
-                <a href="#">Custom & Favors </a> / <a href="#">Shipping</a> / <a href="#">Exchanges</a> / <a href="#">Returns</a>       <a href="#">Testimonials</a>       <a href="#">News</a> / <a href="#">Special Offers</a>
+                <a href="#">Custom & Favors</a>
+                <a href="#">Shipping / Exchanges / Returns</a>
+                <a href="#">Testimonials</a>
+                <a href="#">News / Special Offers</a>
+                <span class="copyright">
+                    Copyright 2015, Siam Seas - All Rights Reserved.
+                </span>
             </footer>
         </div>
       </div>
     </div>
   </div>
-    <a href="#">This is the link</a>
 </section>

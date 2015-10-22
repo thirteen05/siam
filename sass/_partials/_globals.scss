@@ -1,1 +1,19 @@
 $main-color: #333;
+footer {
+    
+    background: #9fa0a2;
+    padding: 2% 0;
+    
+    a{
+        display: inline-block;
+        padding: 10px 1.5%;
+        color: white;
+    }
+    
+    .copyright{
+        color: white;
+        display: block;
+        margin: 15px auto 0 auto;
+    }
+    
+}

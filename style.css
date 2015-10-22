@@ -7138,6 +7138,21 @@ button.close {
   /* line 18, bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
+/* line 2, sass/_partials/_globals.scss */
+footer {
+  background: #9fa0a2;
+  padding: 2% 0; }
+  /* line 7, sass/_partials/_globals.scss */
+  footer a {
+    display: inline-block;
+    padding: 10px 1.5%;
+    color: white; }
+  /* line 13, sass/_partials/_globals.scss */
+  footer .copyright {
+    color: white;
+    display: block;
+    margin: 15px auto 0 auto; }
+
 /* line 1, sass/_partials/_fonts.scss */
 a {
   color: #333; }
@@ -7147,16 +7162,25 @@ body {
   font-family: "Times New Roman"; }
 
 /* line 3, sass/_partials/_home.scss */
+.home .ROC_dropCart {
+  margin-right: 0; }
+/* line 7, sass/_partials/_home.scss */
+.home .row {
+  margin-left: 0;
+  margin-right: 0; }
+/* line 12, sass/_partials/_home.scss */
+.home .nopadding {
+  padding-left: 0;
+  padding-right: 0; }
+
+/* line 20, sass/_partials/_home.scss */
 #section-home-example #logo {
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   width: auto;
   height: 27vh;
   margin-bottom: 1.5vw; }
-/* line 11, sass/_partials/_home.scss */
-#section-home-example a {
-  color: #333; }
-/* line 15, sass/_partials/_home.scss */
+/* line 28, sass/_partials/_home.scss */
 #section-home-example .sidebar {
   background: #000000;
   height: 100vh;
@@ -7164,12 +7188,12 @@ body {
   padding-top: 2vw;
   width: 16.97%;
   z-index: 99; }
-  /* line 23, sass/_partials/_home.scss */
+  /* line 36, sass/_partials/_home.scss */
   #section-home-example .sidebar ul {
     list-style: none;
     padding: 0;
     margin-bottom: 4vh; }
-    /* line 28, sass/_partials/_home.scss */
+    /* line 41, sass/_partials/_home.scss */
     #section-home-example .sidebar ul a {
       color: #bfa061;
       font-weight: bold;
@@ -7177,68 +7201,68 @@ body {
       font-size: 2.8vh;
       padding: 4px 0;
       display: block; }
-/* line 38, sass/_partials/_home.scss */
+/* line 51, sass/_partials/_home.scss */
 #section-home-example .homeframe1 {
   background: url("images/homeframe1-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh; }
-/* line 44, sass/_partials/_home.scss */
+/* line 57, sass/_partials/_home.scss */
 #section-home-example .homeframe2 {
   background: url("images/homeframe2-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 50, sass/_partials/_home.scss */
+/* line 63, sass/_partials/_home.scss */
 #section-home-example .homeframe3 {
   background: url("images/homeframe3-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 56, sass/_partials/_home.scss */
+/* line 69, sass/_partials/_home.scss */
 #section-home-example .homeframe4 {
   background: url("images/homeframe4-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 60vh; }
-/* line 62, sass/_partials/_home.scss */
+/* line 75, sass/_partials/_home.scss */
 #section-home-example .homeframe5 {
   background: url("images/homeframe5-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 68, sass/_partials/_home.scss */
+/* line 81, sass/_partials/_home.scss */
 #section-home-example .homeframe6 {
   background: url("images/homeframe6-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh; }
-/* line 74, sass/_partials/_home.scss */
+/* line 87, sass/_partials/_home.scss */
 #section-home-example .quote {
   color: #bfa061;
   font-weight: bold;
   font-style: italic;
   font-size: 2.5rem;
   padding: 20px 15%; }
-/* line 81, sass/_partials/_home.scss */
+/* line 94, sass/_partials/_home.scss */
 #section-home-example .home-cta {
   background: url("images/white-texture.png") no-repeat;
   background-size: cover;
-  padding: 0 5%; }
-  /* line 86, sass/_partials/_home.scss */
+  padding: 2% 5%; }
+  /* line 99, sass/_partials/_home.scss */
   #section-home-example .home-cta .cta {
-    padding: 0 10%; }
-  /* line 90, sass/_partials/_home.scss */
+    padding: 0 12%; }
+  /* line 103, sass/_partials/_home.scss */
   #section-home-example .home-cta img {
     width: 100%;
     height: auto; }
-  /* line 95, sass/_partials/_home.scss */
+  /* line 108, sass/_partials/_home.scss */
   #section-home-example .home-cta h2 {
     font-weight: bold;
     font-style: italic;
     font-size: 4.5rem;
     color: black; }
-  /* line 102, sass/_partials/_home.scss */
+  /* line 115, sass/_partials/_home.scss */
   #section-home-example .home-cta p {
     font-weight: bold;
     font-size: 2.3rem; }
