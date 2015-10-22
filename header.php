@@ -19,3 +19,36 @@
         <?php wp_head(); ?>
   </head>
     <body <?php body_class(); ?>>
+
+          <div class="container-full">
+    <div class="row">
+        <div class="col-md-2 text-center nopadding">
+            <div class="sidebar">
+                <a href="<?php echo site_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-header.svg" width="300" /></a>
+                <?php wp_nav_menu(); ?>
+                <ul>
+                    <li>
+                        <a href="#">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="#">What's in it?</a>
+                    </li>
+                    <li>
+                        <a href="#">Art of Giving</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                    <li>
+                        <a href="#">Wholesale</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      <div class="col-md-10 text-center nopadding">
+        <div class="main-section">

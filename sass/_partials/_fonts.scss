@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'myriad';
+  src: url('fonts/myriadpro.eot'); /* IE9 Compat Modes */
+  src: url('fonts/myriadpro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/myriadpro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/myriadpro.ttf')  format('truetype');
+}
 a{
-  color: $main-color;
+  color: $gold;
 }
 body{
     font-family: "Times New Roman";

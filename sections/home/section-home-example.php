@@ -1,36 +1,5 @@
 <section id="section-home-example">
-  <div class="container-full">
-    <div class="row">
-        <div class="col-md-2 text-center nopadding">
-            <div class="sidebar">
-                <img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-header.svg" width="300" />
-                <?php wp_nav_menu(); ?>
-                <ul>
-                    <li>
-                        <a href="#">Our Story</a>
-                    </li>
-                    <li>
-                        <a href="#">What's in it?</a>
-                    </li>
-                    <li>
-                        <a href="#">Art of Giving</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">Press</a>
-                    </li>
-                    <li>
-                        <a href="#">Wholesale</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      <div class="col-md-10 text-center nopadding">
-        <div class="main-section">
+
             <div class="homeframe1"></div> 
             <div class="quote">
                 At the heart of Siam Seas is a passion for reintroducing the time-honored ingredients and philosophies of Southeast Asia to a new generation across the globe. 
@@ -75,17 +44,4 @@
                 We believe that true healing starts from the inside, and all of our products are formulated to encourage holistic harcmony and well-being
             </div>
             <div class="homeframe6"></div>
-            <footer>
-                <a href="#">Custom & Favors</a>
-                <a href="#">Shipping / Exchanges / Returns</a>
-                <a href="#">Testimonials</a>
-                <a href="#">News / Special Offers</a>
-                <span class="copyright">
-                    Copyright 2015, Siam Seas - All Rights Reserved.
-                </span>
-            </footer>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

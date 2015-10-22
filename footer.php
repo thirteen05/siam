@@ -1,14 +1,18 @@
-  <?php get_template_part('modal'); ?>
+            <footer>
+                <a href="#">Custom & Favors</a>
+                <a href="#">Shipping / Exchanges / Returns</a>
+                <a href="#">Testimonials</a>
+                <a href="#">News / Special Offers</a>
+                <span class="copyright">
+                    Copyright 2015, Siam Seas - All Rights Reserved.
+                </span>
+            </footer>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
-
-
-
-
-
-
+<?php get_template_part('modal'); ?>
 
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

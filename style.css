@@ -7138,28 +7138,125 @@ button.close {
   /* line 18, bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 2, sass/_partials/_globals.scss */
+/* line 3, sass/_partials/_globals.scss */
 footer {
   background: #9fa0a2;
   padding: 2% 0; }
-  /* line 7, sass/_partials/_globals.scss */
+  /* line 8, sass/_partials/_globals.scss */
   footer a {
     display: inline-block;
     padding: 10px 1.5%;
     color: white; }
-  /* line 13, sass/_partials/_globals.scss */
+  /* line 14, sass/_partials/_globals.scss */
   footer .copyright {
     color: white;
     display: block;
     margin: 15px auto 0 auto; }
 
-/* line 1, sass/_partials/_fonts.scss */
-a {
-  color: #333; }
+/* line 24, sass/_partials/_globals.scss */
+#ROC_dropcart .ROC_dropCart {
+  background-color: #bfa061;
+  color: black;
+  padding: 6px 3px 23px 3px; }
+/* line 30, sass/_partials/_globals.scss */
+#ROC_dropcart a.ROC_dCChk {
+  background-color: black;
+  color: #bfa061;
+  font-weight: 900;
+  padding: 6px 0; }
+/* line 37, sass/_partials/_globals.scss */
+#ROC_dropcart .ROC_dropCartOpts {
+  padding: 6px 0px 2px 0px; }
+/* line 41, sass/_partials/_globals.scss */
+#ROC_dropcart .ROC_dropCart iframe {
+  transform: scale(1.6);
+  margin: -57px 0px 0px 0px;
+  right: 0;
+  width: 223px; }
+/* line 48, sass/_partials/_globals.scss */
+#ROC_dropcart .ROC_dCBktArr {
+  font-size: 1.5rem;
+  position: relative;
+  left: 5px;
+  top: 5px; }
 
-/* line 4, sass/_partials/_fonts.scss */
+@font-face {
+  font-family: 'myriad';
+  src: url("fonts/myriadpro.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/myriadpro.eot?#iefix") format("embedded-opentype"), url("fonts/myriadpro.woff") format("woff"), url("fonts/myriadpro.ttf") format("truetype"); }
+/* line 8, sass/_partials/_fonts.scss */
+a {
+  color: #bfa061; }
+
+/* line 11, sass/_partials/_fonts.scss */
 body {
   font-family: "Times New Roman"; }
+
+/* line 1, sass/_partials/_navbar.scss */
+#logo {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  width: auto;
+  height: 27vh;
+  margin-bottom: 1.5vw; }
+
+/* line 9, sass/_partials/_navbar.scss */
+.sidebar {
+  background: #000000;
+  height: 100vh;
+  position: fixed;
+  padding-top: 2vw;
+  width: 16.97vw;
+  z-index: 99; }
+  /* line 17, sass/_partials/_navbar.scss */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4vh;
+    background: black; }
+    /* line 24, sass/_partials/_navbar.scss */
+    .sidebar ul.sub-menu a {
+      color: white;
+      font-size: 1.9rem;
+      padding: 4px 22px;
+      font-family: 'myriad';
+      font-weight: normal; }
+    /* line 34, sass/_partials/_navbar.scss */
+    .sidebar ul .menu-item-has-children {
+      position: relative; }
+      /* line 37, sass/_partials/_navbar.scss */
+      .sidebar ul .menu-item-has-children .sub-menu {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 14vw;
+        width: 300px;
+        text-align: left;
+        background: #bfa061;
+        color: white;
+        padding: 10px 0;
+        transition: ease all 0.4s;
+        -webkit-transition: ease all 0.4s; }
+      /* line 55, sass/_partials/_navbar.scss */
+      .sidebar ul .menu-item-has-children:hover .sub-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        left: 16.97vw; }
+    /* line 64, sass/_partials/_navbar.scss */
+    .sidebar ul a {
+      color: #bfa061;
+      font-weight: bold;
+      font-family: "Times New Roman";
+      font-size: 2.8vh;
+      padding: 4px 0;
+      display: block; }
+      /* line 65, sass/_partials/_navbar.scss */
+      .sidebar ul a:hover {
+        text-decoration: none; }
 
 /* line 3, sass/_partials/_home.scss */
 .home .ROC_dropCart {
@@ -7174,95 +7271,67 @@ body {
   padding-right: 0; }
 
 /* line 20, sass/_partials/_home.scss */
-#section-home-example #logo {
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-  width: auto;
-  height: 27vh;
-  margin-bottom: 1.5vw; }
-/* line 28, sass/_partials/_home.scss */
-#section-home-example .sidebar {
-  background: #000000;
-  height: 100vh;
-  position: fixed;
-  padding-top: 2vw;
-  width: 16.97%;
-  z-index: 99; }
-  /* line 36, sass/_partials/_home.scss */
-  #section-home-example .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 4vh; }
-    /* line 41, sass/_partials/_home.scss */
-    #section-home-example .sidebar ul a {
-      color: #bfa061;
-      font-weight: bold;
-      font-family: "Times New Roman";
-      font-size: 2.8vh;
-      padding: 4px 0;
-      display: block; }
-/* line 51, sass/_partials/_home.scss */
 #section-home-example .homeframe1 {
   background: url("images/homeframe1-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh; }
-/* line 57, sass/_partials/_home.scss */
+/* line 26, sass/_partials/_home.scss */
 #section-home-example .homeframe2 {
   background: url("images/homeframe2-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 63, sass/_partials/_home.scss */
+/* line 32, sass/_partials/_home.scss */
 #section-home-example .homeframe3 {
   background: url("images/homeframe3-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 69, sass/_partials/_home.scss */
+/* line 38, sass/_partials/_home.scss */
 #section-home-example .homeframe4 {
   background: url("images/homeframe4-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 60vh; }
-/* line 75, sass/_partials/_home.scss */
+/* line 44, sass/_partials/_home.scss */
 #section-home-example .homeframe5 {
   background: url("images/homeframe5-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 80vh; }
-/* line 81, sass/_partials/_home.scss */
+/* line 50, sass/_partials/_home.scss */
 #section-home-example .homeframe6 {
   background: url("images/homeframe6-scaled.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh; }
-/* line 87, sass/_partials/_home.scss */
+/* line 56, sass/_partials/_home.scss */
 #section-home-example .quote {
   color: #bfa061;
   font-weight: bold;
   font-style: italic;
   font-size: 2.5rem;
   padding: 20px 15%; }
-/* line 94, sass/_partials/_home.scss */
+/* line 63, sass/_partials/_home.scss */
 #section-home-example .home-cta {
   background: url("images/white-texture.png") no-repeat;
   background-size: cover;
   padding: 2% 5%; }
-  /* line 99, sass/_partials/_home.scss */
+  /* line 68, sass/_partials/_home.scss */
   #section-home-example .home-cta .cta {
     padding: 0 12%; }
-  /* line 103, sass/_partials/_home.scss */
+  /* line 72, sass/_partials/_home.scss */
   #section-home-example .home-cta img {
     width: 100%;
     height: auto; }
-  /* line 108, sass/_partials/_home.scss */
+  /* line 77, sass/_partials/_home.scss */
   #section-home-example .home-cta h2 {
     font-weight: bold;
     font-style: italic;
     font-size: 4.5rem;
     color: black; }
-  /* line 115, sass/_partials/_home.scss */
+  /* line 84, sass/_partials/_home.scss */
   #section-home-example .home-cta p {
     font-weight: bold;
     font-size: 2.3rem; }
