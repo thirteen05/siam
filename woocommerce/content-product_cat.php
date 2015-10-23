@@ -28,6 +28,7 @@ if ( empty( $woocommerce_loop['columns'] ) ) {
 // Increase loop count
 $woocommerce_loop['loop'] ++;
 ?>
+<div class="test"></div>
 <li <?php wc_product_cat_class(); ?>>
 	<?php do_action( 'woocommerce_before_subcategory', $category ); ?>
 

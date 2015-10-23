@@ -52,6 +52,9 @@ footer {
         top: 5px;
     }
 }
+
+/* Single Product Page */
+
 .woocommerce div.product .product_title{
     font-weight: 900;
 }
@@ -119,4 +122,10 @@ footer {
         position: relative;
         padding:0 10px;
     }
+}
+
+/* Category Page */
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    width: 46%;
 }
