@@ -19,6 +19,20 @@ footer {
     
 }
 
+.row{
+    position: relative;
+}
+
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-full .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
 #ROC_dropcart{
     
     .ROC_dropCart{
@@ -38,12 +52,12 @@ footer {
         padding: 6px 0px 2px 0px;
     }
     
-    .ROC_dropCart iframe{
-        transform: scale(1.6);
-        margin: -57px 0px 0px 0px;
-        right: 0;
-        width: 223px;
-    }
+//    .ROC_dropCart iframe{
+//        transform: scale(1.6);
+//        margin: -57px 0px 0px 0px;
+//        right: 0;
+//        width: 223px;
+//    }
     
     .ROC_dCBktArr{
         font-size: 1.5rem;
@@ -54,6 +68,16 @@ footer {
 }
 
 /* Single Product Page */
+
+.excerpt p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#tab-description{
+    margin-top: 2%;   
+}
 
 .woocommerce div.product .product_title{
     font-weight: 900;
@@ -71,12 +95,25 @@ footer {
 .product-summary{
     text-align: left;
 }
-.add-to-cart-roman a{
+.add-to-cart-roman input[type="submit"]{
     background: black;
     padding: 10px 30px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+    border: none;
+}
+input.quantity{
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    top: 3px;
+}
+.quantity{
+    font-size: 2rem;
+    margin-left: 7px;
 }
 .woocommerce div.product p.price, .woocommerce div.product span.price{
     color: black;
@@ -123,9 +160,53 @@ footer {
         padding:0 10px;
     }
 }
+.woocommerce div.product{
+    padding: 5% 5%;
+}
 
 /* Category Page */
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
     width: 46%;
+    margin: 0 3.8% 1.992em 0;
+}
+
+.woocommerce ul.products li.product a{
+    border: 1px solid #bfa061;
+    display: block;
+    padding: 0 6%;
+    overflow: hidden;
+    background: white;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+    
+    &:hover{
+        
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+    }
+}
+
+.woocommerce ul.products li.product h3{
+    font-size: 1.5em;
+    width: 40%;
+    font-weight: bold;
+    position: absolute;
+    top: 21%;
+    left: 6%;
+}
+
+.woocommerce ul.products li.product a img{
+    width: 58%;
+    margin: 0;
+    float: right;
+    padding-left: 7%;
+}
+
+.category-container{
+    background: url('images/category-bkg.jpg') no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    background-position: top left;
+    padding: 7% 0 5% 0;
 }

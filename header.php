@@ -22,10 +22,20 @@
 
           <div class="container-full">
     <div class="row">
+        <div class="mobile-bar">
+            <a class="menu-toggle" href="#">
+                <i class="fa fa-bars"></i>
+            </a>
+            <img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo.svg" />
+            <a href="http://www.romancart.com/cart.asp?storeid=54492"><img class="shopping-bag" src="<?php echo get_template_directory_uri(); ?>/images/shopping-bag.svg" /></a>
+        </div>
         <div class="col-md-2 text-center nopadding">
             <div class="sidebar">
                 <a href="<?php echo site_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-header.svg" width="300" /></a>
-                <?php wp_nav_menu(); ?>
+                <div class="desktop"><?php wp_nav_menu(); ?></div>
+                <div class="mobile-menu">
+                    <?php include 'mobile-menu.php'; ?>
+                </div>
                 <ul>
                     <li>
                         <a href="#">Our Story</a>
@@ -50,5 +60,5 @@
                 </ul>
             </div>
         </div>
-      <div class="col-md-10 text-center nopadding">
+      <div class="col-md-10 main-col text-center nopadding">
         <div class="main-section">

@@ -32,10 +32,13 @@
         </script>
 
         <script>
-
-          
-          
-
+            $('.menu-toggle').click(function(){
+               $('.sidebar').toggleClass('opened'); 
+            });
+            $('.mobile-menu .menu-item-has-children').click(function(event){
+                $(this).find('ul').toggleClass('open');
+            });
+            
         </script>
 
         <?php wp_footer(); ?>

@@ -66,8 +66,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 <input name="itemcode" type="hidden" value="soap_blacksesame" />
 <input name="price" type="hidden" value="9.99" />
 <input name="storeid" type="hidden" value="54492" />
-<input name="quantity" type="hidden" value="1" />
-<a href="http://www.romancart.com/cart.asp?storeid=54492&amp;itemcode=soap_blacksesame&amp;minicart=yes" target="ROC_dCTarget">Add to Bag</a></form>
+<input type="submit" href="http://www.romancart.com/cart.asp?storeid=54492&amp;itemcode=soap_blacksesame&amp;minicart=yes" target="ROC_dCTarget" value="Add to basket">
+<span class="quantity">Qty: </span><input class="quantity" type=text name=quantity value=1>
+</form>
             <?php
 		/**
 		 * woocommerce_after_single_product_summary hook
