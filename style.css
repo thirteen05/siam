@@ -7328,13 +7328,108 @@ input.quantity {
   float: right;
   padding-left: 7%; }
 
-/* line 206, sass/_partials/_globals.scss */
+/* line 205, sass/_partials/_globals.scss */
 .category-container {
-  background: url("images/category-bkg.jpg") no-repeat;
-  background-size: cover;
-  min-height: 85vh;
+  min-height: 100vh;
   background-position: top left;
   padding: 7% 0 5% 0; }
+
+/* line 210, sass/_partials/_globals.scss */
+.term-body .category-container {
+  background: url("images/category-bkg.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 214, sass/_partials/_globals.scss */
+.term-hair .category-container {
+  background: url("images/hair.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+/* line 219, sass/_partials/_globals.scss */
+.term-face .category-container {
+  background: url("images/woman-mask.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+/* line 224, sass/_partials/_globals.scss */
+.cat-description {
+  padding: 0 10%; }
+
+/* no direction */
+/* line 229, sass/_partials/_globals.scss */
+.page .entry-content {
+  padding: 5%;
+  min-height: 85vh; }
+
+/* line 233, sass/_partials/_globals.scss */
+.contact.entry-content {
+  background: url("images/contact-bkg.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  text-align: left; }
+
+/* line 239, sass/_partials/_globals.scss */
+.contact.entry-content:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.17);
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 249, sass/_partials/_globals.scss */
+.contact.entry-content:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: url("images/contact-bowl.png") no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: 80%;
+  background-position: top right; }
+
+/* line 261, sass/_partials/_globals.scss */
+.contact.entry-content .row {
+  margin: 10px 0; }
+
+/* line 264, sass/_partials/_globals.scss */
+.contact.entry-content strong {
+  font-family: 'myriad';
+  font-size: 1.6rem;
+  width: 87px;
+  display: inline-block;
+  text-align: right;
+  padding: 0 11px 0 0px;
+  vertical-align: top; }
+
+/* line 273, sass/_partials/_globals.scss */
+.entry-content .inner {
+  position: relative;
+  z-index: 9; }
+
+/* line 277, sass/_partials/_globals.scss */
+.entry-content h1 {
+  font-weight: bold;
+  margin-bottom: 4%; }
+
+/* line 281, sass/_partials/_globals.scss */
+.entry-content input[type="text"], textarea, input[type="email"] {
+  width: 300px;
+  max-width: 100%;
+  border: 1px solid black; }
+
+/* line 286, sass/_partials/_globals.scss */
+.entry-content input[type="submit"] {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  border: 0; }
 
 @font-face {
   font-family: 'myriad';
@@ -7491,6 +7586,73 @@ body {
   #section-home-example .home-cta p {
     font-weight: bold;
     font-size: 2.3rem; }
+
+/* line 1, sass/_partials/_our-story.scss */
+.our-story {
+  font-size: 1.6vw;
+  background-size: 100% auto; }
+  /* line 4, sass/_partials/_our-story.scss */
+  .our-story .top {
+    background: url("images/our-story-top.jpg") no-repeat;
+    background-size: 100% auto;
+    padding: 9%; }
+    /* line 9, sass/_partials/_our-story.scss */
+    .our-story .top h1 {
+      margin-top: 40px;
+      margin-bottom: 25%; }
+    /* line 13, sass/_partials/_our-story.scss */
+    .our-story .top .more-padding {
+      padding: 0 15%;
+      margin-bottom: 78%; }
+  /* line 18, sass/_partials/_our-story.scss */
+  .our-story .middle {
+    position: relative;
+    margin-top: -50%; }
+    /* line 22, sass/_partials/_our-story.scss */
+    .our-story .middle:before {
+      background: url("images/our-story-center.png") no-repeat;
+      background-size: 100% auto;
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      content: '';
+      z-index: 1; }
+    /* line 34, sass/_partials/_our-story.scss */
+    .our-story .middle:after {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 17%;
+      right: 0;
+      width: 32%;
+      height: 30%;
+      background: url("images/flowers.png") no-repeat;
+      z-index: 0; }
+    /* line 46, sass/_partials/_our-story.scss */
+    .our-story .middle .inner {
+      position: relative;
+      padding: 76% 10%;
+      z-index: 9; }
+
+/* line 53, sass/_partials/_our-story.scss */
+.alignright {
+  float: right; }
+
+/* line 56, sass/_partials/_our-story.scss */
+.alignleft {
+  float: left; }
+
+/* line 59, sass/_partials/_our-story.scss */
+.our-promise {
+  background: url("images/special-bg.svg") no-repeat;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  margin: auto auto;
+  padding: 10px 118px;
+  background-size: 100% 100%; }
 
 @media (max-width: 1500px) {
   /* line 2, sass/_partials/_responsive.scss */

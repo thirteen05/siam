@@ -25,7 +25,15 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_before_main_content' );
 	?>
 <div class="row">
-    <div class="col-md-5"></div>
+    <div class="col-md-5 cat-description">
+        <?php 
+$queried_object = get_queried_object(); 
+$taxonomy = $queried_object->taxonomy;
+$term_id = $queried_object->term_id;  
+
+the_field('category_description', $taxonomy . '_' . $term_id);
+	
+?></div>
     <div class="col-md-7">
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 

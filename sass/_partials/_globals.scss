@@ -202,11 +202,92 @@ input.quantity{
     float: right;
     padding-left: 7%;
 }
-
 .category-container{
-    background: url('images/category-bkg.jpg') no-repeat;
-    background-size: cover;
-    min-height: 85vh;
+    min-height: 100vh;
     background-position: top left;
     padding: 7% 0 5% 0;
+}
+.term-body .category-container{
+    background: url('images/category-bkg.jpg') no-repeat;
+    background-size: cover;
+}
+.term-hair .category-container{
+    background: url('images/hair.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.term-face .category-container{
+    background: url('images/woman-mask.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.cat-description{
+    padding: 0 10%;
+}
+/* no direction */
+
+.page .entry-content{
+    padding: 5%;
+    min-height: 85vh;
+}
+.contact.entry-content{
+    background: url('images/contact-bkg.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    text-align: left;
+}
+.contact.entry-content:before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.17);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact.entry-content:after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('images/contact-bowl.png') no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: 80%;
+    background-position: top right;
+}
+.contact.entry-content .row{
+    margin: 10px 0;
+}
+.contact.entry-content strong{
+    font-family: 'myriad';
+    font-size: 1.6rem;
+    width: 87px;
+    display: inline-block;
+    text-align: right;
+    padding: 0 11px 0 0px;
+    vertical-align: top;
+}
+.entry-content .inner{
+    position: relative;
+    z-index: 9;
+}
+.entry-content h1{
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+.entry-content input[type="text"], textarea, input[type="email"]{
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid black;
+}
+.entry-content input[type="submit"]{
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    border: 0;
 }

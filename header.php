@@ -55,10 +55,10 @@
                         <a href="#">Wholesale</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="<?php echo site_url(); ?>/contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
-      <div class="col-md-10 main-col text-center nopadding">
+      <div class="col-md-10 main-col nopadding">
         <div class="main-section">
