@@ -7154,34 +7154,49 @@ footer {
     margin: 15px auto 0 auto; }
 
 /* line 22, sass/_partials/_globals.scss */
+.alignright {
+  float: right;
+  margin: 0 0 10px 10px; }
+
+/* line 27, sass/_partials/_globals.scss */
+.alignleft {
+  float: left;
+  margin: 0 10px 10px 0; }
+
+/* line 32, sass/_partials/_globals.scss */
+.aligncenter {
+  display: block;
+  margin: auto auto; }
+
+/* line 37, sass/_partials/_globals.scss */
 .row {
   position: relative; }
 
-/* line 26, sass/_partials/_globals.scss */
+/* line 41, sass/_partials/_globals.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 31, sass/_partials/_globals.scss */
+/* line 46, sass/_partials/_globals.scss */
 .container-full .row {
   margin-right: 0;
   margin-left: 0; }
 
-/* line 38, sass/_partials/_globals.scss */
+/* line 53, sass/_partials/_globals.scss */
 #ROC_dropcart .ROC_dropCart {
   background-color: #bfa061;
   color: black;
   padding: 6px 3px 23px 3px; }
-/* line 44, sass/_partials/_globals.scss */
+/* line 59, sass/_partials/_globals.scss */
 #ROC_dropcart a.ROC_dCChk {
   background-color: black;
   color: #bfa061;
   font-weight: 900;
   padding: 6px 0; }
-/* line 51, sass/_partials/_globals.scss */
+/* line 66, sass/_partials/_globals.scss */
 #ROC_dropcart .ROC_dropCartOpts {
   padding: 6px 0px 2px 0px; }
-/* line 62, sass/_partials/_globals.scss */
+/* line 77, sass/_partials/_globals.scss */
 #ROC_dropcart .ROC_dCBktArr {
   font-size: 1.5rem;
   position: relative;
@@ -7189,38 +7204,38 @@ footer {
   top: 5px; }
 
 /* Single Product Page */
-/* line 72, sass/_partials/_globals.scss */
+/* line 87, sass/_partials/_globals.scss */
 .excerpt p {
   font-style: italic;
   font-weight: bold;
   font-size: 2rem; }
 
-/* line 78, sass/_partials/_globals.scss */
+/* line 93, sass/_partials/_globals.scss */
 #tab-description {
   margin-top: 2%; }
 
-/* line 82, sass/_partials/_globals.scss */
+/* line 97, sass/_partials/_globals.scss */
 .woocommerce div.product .product_title {
   font-weight: 900; }
 
-/* line 85, sass/_partials/_globals.scss */
+/* line 100, sass/_partials/_globals.scss */
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
   width: 100%;
   float: none; }
 
-/* line 89, sass/_partials/_globals.scss */
+/* line 104, sass/_partials/_globals.scss */
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   display: none; }
 
-/* line 92, sass/_partials/_globals.scss */
+/* line 107, sass/_partials/_globals.scss */
 .price-container, .add-to-cart-roman {
   display: inline-block; }
 
-/* line 95, sass/_partials/_globals.scss */
+/* line 110, sass/_partials/_globals.scss */
 .product-summary {
   text-align: left; }
 
-/* line 98, sass/_partials/_globals.scss */
+/* line 113, sass/_partials/_globals.scss */
 .add-to-cart-roman input[type="submit"] {
   background: black;
   padding: 10px 30px;
@@ -7229,7 +7244,7 @@ footer {
   letter-spacing: 1px;
   border: none; }
 
-/* line 106, sass/_partials/_globals.scss */
+/* line 121, sass/_partials/_globals.scss */
 input.quantity {
   width: 60px;
   text-align: center;
@@ -7238,12 +7253,12 @@ input.quantity {
   position: relative;
   top: 3px; }
 
-/* line 114, sass/_partials/_globals.scss */
+/* line 129, sass/_partials/_globals.scss */
 .quantity {
   font-size: 2rem;
   margin-left: 7px; }
 
-/* line 118, sass/_partials/_globals.scss */
+/* line 133, sass/_partials/_globals.scss */
 .woocommerce div.product p.price, .woocommerce div.product span.price {
   color: black;
   font-weight: bold;
@@ -7252,27 +7267,27 @@ input.quantity {
   position: relative;
   top: 5px; }
 
-/* line 126, sass/_partials/_globals.scss */
+/* line 141, sass/_partials/_globals.scss */
 .ingredients-item {
   display: inline-block;
   padding: 0 20px;
   max-width: 250px; }
-  /* line 131, sass/_partials/_globals.scss */
+  /* line 146, sass/_partials/_globals.scss */
   .ingredients-item img {
     margin: auto auto;
     display: block; }
-  /* line 136, sass/_partials/_globals.scss */
+  /* line 151, sass/_partials/_globals.scss */
   .ingredients-item strong {
     display: block; }
 
-/* line 140, sass/_partials/_globals.scss */
+/* line 155, sass/_partials/_globals.scss */
 .middle-line {
   font-style: italic;
   font-weight: bold;
   display: block;
   font-size: 2rem;
   padding: 30px 0 30px 0; }
-  /* line 147, sass/_partials/_globals.scss */
+  /* line 162, sass/_partials/_globals.scss */
   .middle-line:before {
     display: block;
     position: absolute;
@@ -7281,24 +7296,24 @@ input.quantity {
     width: 100%;
     background: black;
     content: ''; }
-  /* line 156, sass/_partials/_globals.scss */
+  /* line 171, sass/_partials/_globals.scss */
   .middle-line .contain {
     background: white;
     display: inline-block;
     position: relative;
     padding: 0 10px; }
 
-/* line 163, sass/_partials/_globals.scss */
+/* line 178, sass/_partials/_globals.scss */
 .woocommerce div.product {
   padding: 5% 5%; }
 
 /* Category Page */
-/* line 169, sass/_partials/_globals.scss */
+/* line 184, sass/_partials/_globals.scss */
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
   width: 46%;
   margin: 0 3.8% 1.992em 0; }
 
-/* line 174, sass/_partials/_globals.scss */
+/* line 189, sass/_partials/_globals.scss */
 .woocommerce ul.products li.product a {
   border: 1px solid #bfa061;
   display: block;
@@ -7307,12 +7322,12 @@ input.quantity {
   background: white;
   transition: ease all 0.6s;
   -webkit-transition: ease all 0.6s; }
-  /* line 183, sass/_partials/_globals.scss */
+  /* line 198, sass/_partials/_globals.scss */
   .woocommerce ul.products li.product a:hover {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%); }
 
-/* line 190, sass/_partials/_globals.scss */
+/* line 205, sass/_partials/_globals.scss */
 .woocommerce ul.products li.product h3 {
   font-size: 1.5em;
   width: 40%;
@@ -7321,54 +7336,54 @@ input.quantity {
   top: 21%;
   left: 6%; }
 
-/* line 199, sass/_partials/_globals.scss */
+/* line 214, sass/_partials/_globals.scss */
 .woocommerce ul.products li.product a img {
   width: 58%;
   margin: 0;
   float: right;
   padding-left: 7%; }
 
-/* line 205, sass/_partials/_globals.scss */
+/* line 220, sass/_partials/_globals.scss */
 .category-container {
   min-height: 100vh;
   background-position: top left;
   padding: 7% 0 5% 0; }
 
-/* line 210, sass/_partials/_globals.scss */
+/* line 225, sass/_partials/_globals.scss */
 .term-body .category-container {
   background: url("images/category-bkg.jpg") no-repeat;
   background-size: cover; }
 
-/* line 214, sass/_partials/_globals.scss */
+/* line 229, sass/_partials/_globals.scss */
 .term-hair .category-container {
   background: url("images/hair.jpg") no-repeat;
   background-size: cover;
   background-position: bottom; }
 
-/* line 219, sass/_partials/_globals.scss */
+/* line 234, sass/_partials/_globals.scss */
 .term-face .category-container {
   background: url("images/woman-mask.jpg") no-repeat;
   background-size: cover;
   background-position: bottom; }
 
-/* line 224, sass/_partials/_globals.scss */
+/* line 239, sass/_partials/_globals.scss */
 .cat-description {
   padding: 0 10%; }
 
 /* no direction */
-/* line 229, sass/_partials/_globals.scss */
+/* line 244, sass/_partials/_globals.scss */
 .page .entry-content {
   padding: 5%;
   min-height: 85vh; }
 
-/* line 233, sass/_partials/_globals.scss */
+/* line 248, sass/_partials/_globals.scss */
 .contact.entry-content {
   background: url("images/contact-bkg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom right;
   text-align: left; }
 
-/* line 239, sass/_partials/_globals.scss */
+/* line 254, sass/_partials/_globals.scss */
 .contact.entry-content:before {
   display: block;
   content: '';
@@ -7379,7 +7394,7 @@ input.quantity {
   top: 0;
   left: 0; }
 
-/* line 249, sass/_partials/_globals.scss */
+/* line 264, sass/_partials/_globals.scss */
 .contact.entry-content:after {
   display: block;
   content: '';
@@ -7392,11 +7407,11 @@ input.quantity {
   background-size: 80%;
   background-position: top right; }
 
-/* line 261, sass/_partials/_globals.scss */
+/* line 276, sass/_partials/_globals.scss */
 .contact.entry-content .row {
   margin: 10px 0; }
 
-/* line 264, sass/_partials/_globals.scss */
+/* line 279, sass/_partials/_globals.scss */
 .contact.entry-content strong {
   font-family: 'myriad';
   font-size: 1.6rem;
@@ -7406,23 +7421,23 @@ input.quantity {
   padding: 0 11px 0 0px;
   vertical-align: top; }
 
-/* line 273, sass/_partials/_globals.scss */
+/* line 288, sass/_partials/_globals.scss */
 .entry-content .inner {
   position: relative;
   z-index: 9; }
 
-/* line 277, sass/_partials/_globals.scss */
+/* line 292, sass/_partials/_globals.scss */
 .entry-content h1 {
   font-weight: bold;
   margin-bottom: 4%; }
 
-/* line 281, sass/_partials/_globals.scss */
+/* line 296, sass/_partials/_globals.scss */
 .entry-content input[type="text"], textarea, input[type="email"] {
   width: 300px;
   max-width: 100%;
   border: 1px solid black; }
 
-/* line 286, sass/_partials/_globals.scss */
+/* line 301, sass/_partials/_globals.scss */
 .entry-content input[type="submit"] {
   display: inline-block;
   padding: 10px 15px;
@@ -7590,28 +7605,44 @@ body {
 /* line 1, sass/_partials/_our-story.scss */
 .our-story {
   font-size: 1.6vw;
-  background-size: 100% auto; }
-  /* line 4, sass/_partials/_our-story.scss */
+  background-size: 100% 100%;
+  background: url("images/our-story-bottom.jpg") no-repeat;
+  background-position: bottom; }
+  /* line 7, sass/_partials/_our-story.scss */
+  .our-story h2 {
+    font-size: 2.8vw; }
+  /* line 10, sass/_partials/_our-story.scss */
+  .our-story p {
+    margin: 0 0 3% 0; }
+  /* line 13, sass/_partials/_our-story.scss */
+  .our-story .story-container strong {
+    display: block;
+    width: 85%; }
+  /* line 17, sass/_partials/_our-story.scss */
+  .our-story .supadra {
+    margin-right: 8%; }
+  /* line 20, sass/_partials/_our-story.scss */
   .our-story .top {
     background: url("images/our-story-top.jpg") no-repeat;
-    background-size: 100% auto;
-    padding: 9%; }
-    /* line 9, sass/_partials/_our-story.scss */
+    background-size: 100% 100%;
+    padding: 9% 9% 23% 9%; }
+    /* line 25, sass/_partials/_our-story.scss */
     .our-story .top h1 {
       margin-top: 40px;
-      margin-bottom: 25%; }
-    /* line 13, sass/_partials/_our-story.scss */
+      margin-bottom: 31%;
+      font-size: 3vw; }
+    /* line 30, sass/_partials/_our-story.scss */
     .our-story .top .more-padding {
       padding: 0 15%;
       margin-bottom: 78%; }
-  /* line 18, sass/_partials/_our-story.scss */
+  /* line 35, sass/_partials/_our-story.scss */
   .our-story .middle {
     position: relative;
     margin-top: -50%; }
-    /* line 22, sass/_partials/_our-story.scss */
+    /* line 39, sass/_partials/_our-story.scss */
     .our-story .middle:before {
       background: url("images/our-story-center.png") no-repeat;
-      background-size: 100% auto;
+      background-size: 100% 100%;
       display: block;
       width: 100%;
       height: 100%;
@@ -7619,40 +7650,46 @@ body {
       top: 0;
       content: '';
       z-index: 1; }
-    /* line 34, sass/_partials/_our-story.scss */
+    /* line 51, sass/_partials/_our-story.scss */
     .our-story .middle:after {
       display: block;
       content: '';
       position: absolute;
-      top: 17%;
+      top: 21%;
       right: 0;
       width: 32%;
       height: 30%;
       background: url("images/flowers.png") no-repeat;
-      z-index: 0; }
-    /* line 46, sass/_partials/_our-story.scss */
+      z-index: 1; }
+    /* line 63, sass/_partials/_our-story.scss */
     .our-story .middle .inner {
       position: relative;
-      padding: 76% 10%;
+      padding: 49% 10% 39% 10%;
       z-index: 9; }
+  /* line 69, sass/_partials/_our-story.scss */
+  .our-story .bottom {
+    padding: 0 9% 2% 9%;
+    margin-top: -19%;
+    position: relative;
+    z-index: 9; }
 
-/* line 53, sass/_partials/_our-story.scss */
-.alignright {
-  float: right; }
-
-/* line 56, sass/_partials/_our-story.scss */
-.alignleft {
-  float: left; }
-
-/* line 59, sass/_partials/_our-story.scss */
+/* line 76, sass/_partials/_our-story.scss */
 .our-promise {
   background: url("images/special-bg.svg") no-repeat;
   text-align: center;
   color: white;
   display: inline-block;
   margin: auto auto;
-  padding: 10px 118px;
-  background-size: 100% 100%; }
+  padding: 3vw 22vw;
+  background-size: 100% 100%;
+  font-size: 4vw; }
+
+/* line 86, sass/_partials/_our-story.scss */
+.tilted {
+  width: 40%;
+  height: auto;
+  position: relative;
+  left: 11%; }
 
 @media (max-width: 1500px) {
   /* line 2, sass/_partials/_responsive.scss */
@@ -7688,7 +7725,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9;
+    z-index: 999;
     font-size: 4rem;
     padding: 1% 5%;
     text-align: center; }
@@ -7734,14 +7771,14 @@ body {
     -webkit-transition: ease all 0.3s; }
 
   /* line 78, sass/_partials/_responsive.scss */
-  .woocommerce img.mobile-logo, .woocommerce-page img.mobile-logo {
+  img.mobile-logo {
     display: inline-block;
     width: 60%;
     height: auto;
     max-width: 250px; }
 
   /* line 84, sass/_partials/_responsive.scss */
-  .woocommerce img.shopping-bag, .woocommerce-page img.shopping-bag {
+  img.shopping-bag {
     width: 10%;
     height: auto;
     max-width: 43px;
@@ -7777,4 +7814,54 @@ body {
 
   /* line 116, sass/_partials/_responsive.scss */
   .category-container {
-    padding: 21% 0 5% 0; } }
+    padding: 21% 0 5% 0; }
+
+  /* line 119, sass/_partials/_responsive.scss */
+  .our-story {
+    font-size: 16px; }
+    /* line 122, sass/_partials/_responsive.scss */
+    .our-story .top {
+      background: url("images/our-story-bottom.jpg") no-repeat;
+      padding: 9% 9% 0 9%; }
+      /* line 126, sass/_partials/_responsive.scss */
+      .our-story .top .more-padding {
+        margin-top: -32%;
+        padding: 2% 0;
+        margin-bottom: 0; }
+      /* line 131, sass/_partials/_responsive.scss */
+      .our-story .top h1 {
+        font-size: 9vw;
+        margin-bottom: 5%; }
+    /* line 136, sass/_partials/_responsive.scss */
+    .our-story .middle {
+      position: relative;
+      margin-top: 0%; }
+      /* line 140, sass/_partials/_responsive.scss */
+      .our-story .middle:before {
+        background: transparent; }
+      /* line 144, sass/_partials/_responsive.scss */
+      .our-story .middle:after {
+        position: relative;
+        top: 0;
+        width: 100%; }
+      /* line 150, sass/_partials/_responsive.scss */
+      .our-story .middle .inner {
+        padding: 6% 10% 17% 10%; }
+    /* line 154, sass/_partials/_responsive.scss */
+    .our-story .story-container {
+      margin-top: -33%; }
+    /* line 157, sass/_partials/_responsive.scss */
+    .our-story .tilted {
+      left: 21%; }
+    /* line 160, sass/_partials/_responsive.scss */
+    .our-story h2 {
+      font-size: 9vw; }
+
+  /* line 164, sass/_partials/_responsive.scss */
+  .alignright, .alignleft, .aligncenter {
+    display: block;
+    margin: auto auto;
+    float: none;
+    width: 80%;
+    max-width: 100%;
+    height: auto; } }

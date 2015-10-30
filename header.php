@@ -38,7 +38,7 @@
                 </div>
                 <ul>
                     <li>
-                        <a href="#">Our Story</a>
+                        <a href="<?php echo site_url(); ?>/our-story">Our Story</a>
                     </li>
                     <li>
                         <a href="#">What's in it?</a>
