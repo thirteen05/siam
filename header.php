@@ -52,7 +52,7 @@
                         <a href="#">Press</a>
                     </li>
                     <li>
-                        <a href="#">Wholesale</a>
+                        <a href="<?php echo site_url(); ?>/wholesale">Wholesale</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url(); ?>/contact">Contact</a>
