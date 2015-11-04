@@ -26,7 +26,7 @@
             <a class="menu-toggle" href="#">
                 <i class="fa fa-bars"></i>
             </a>
-            <img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo.svg" />
+            <a href="<?php echo site_url(); ?>"><img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/images/mobile-logo.svg" /></a>
             <a href="http://www.romancart.com/cart.asp?storeid=54492"><img class="shopping-bag" src="<?php echo get_template_directory_uri(); ?>/images/shopping-bag.svg" /></a>
         </div>
         <div class="col-md-2 text-center nopadding">
@@ -44,7 +44,7 @@
                         <a href="#">What's in it?</a>
                     </li>
                     <li>
-                        <a href="#">Art of Giving</a>
+                        <a href="<?php echo site_url(); ?>/art-of-giving">Art of Giving</a>
                     </li>
                 </ul>
                 <ul>

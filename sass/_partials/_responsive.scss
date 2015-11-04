@@ -172,4 +172,48 @@
     .main-section{
         padding-top: 10%;
     }
+    .contact strong{
+        width: auto;
+    }
+    html{
+        font-size: 7px;
+    }
+    .quote{
+        padding: 15px 0;
+    }
+    .art-of .content{
+        padding: 5%;
+        
+        &.flower{
+            padding: 14% 5% 5% 5%;
+            
+            a{
+                color: black;
+                text-decoration: underline;
+            }
+        }
+    }
+    #section-home-example{
+        .homeframe1, .homeframe2, .homeframe3, .homeframe4, .homeframe5, .homeframe6{
+            height: 270px;
+        }
+        .homeframe4{
+            height: auto;
+
+            img{
+                float: none;
+                display: block;
+                margin: auto auto;
+                padding: 11% 0;
+            }
+            .quote{
+                position: relative;
+                background: rgba(255,255,255,0.8);
+            }
+            .rooted{
+                text-align: center;
+                padding-top: 0;
+            }
+        }
+    }
 }

@@ -35,11 +35,34 @@
         background-position: center;
         height: 80vh;
     }
-    .homeframe4{
-        background: url('images/homeframe4-scaled.jpg') no-repeat;
+    .homeframe4-1{
+        background: url('images/homeframe4-top-scaled.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         height: 60vh;
+    }
+    .homeframe4{
+        background: url('images/homeframe4-scaled.jpg') no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        height: 90vh;
+        position: relative;
+        padding-top: 5%;
+        
+        img{
+            width: 280px;
+            float: right;
+        }
+        
+        .quote{
+            position: absolute;
+            bottom: 0;
+        }
+        .rooted{
+            padding-top: 5%;
+            font-size: 3rem;
+            font-weight: bold;
+        }
     }
     .homeframe5{
         background: url('images/homeframe5-scaled.jpg') no-repeat;
@@ -53,20 +76,30 @@
         background-position: center;
         height: 100vh;
     }
-    .quote{
-        color: #bfa061;
-        font-weight: bold;
-        font-style: italic;
-        font-size: 2.5rem;
-        padding: 20px 15%;
-    }
     .home-cta{
         background: url('images/white-texture.png') no-repeat;
         background-size: cover;
         padding: 2% 5%;
+        text-align: center;
 
         .cta{
-            padding: 0 12%;
+            a{
+                display: inline-block;
+                padding: 0 12%;
+                transition: ease all 0.6s;
+                -webkit-transition: ease all 0.6s;
+            }
+            
+            a{
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                
+                &:hover{
+                    text-decoration: none;
+                    background: rgba(191, 160, 97, 0.6);
+                    color: black;
+                }
+            }
         }
 
         img{

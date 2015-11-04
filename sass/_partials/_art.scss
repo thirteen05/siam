@@ -1,0 +1,53 @@
+.art-of{
+    overflow: hidden;
+    background: url('images/our-story-bottom.jpg') no-repeat;
+    background-size: cover;
+    
+    .quote{
+        color: white;
+        display: block;
+    }
+    .top-section{
+        background: url('images/forest.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding: 7% 5%;
+        text-align: center;
+        
+        h1{
+            color: #BAC524;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+    }
+    .content{
+        font-size: 2.5rem;
+        padding:10%;
+        
+        &.flower{
+            padding: 14% 10% 10% 10%;
+        }
+    }
+    .third-section{
+        background: url('images/art5.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding: 15% 5%;
+        position: relative;
+        
+        &:before{
+            position: absolute;
+            bottom: -19%;
+            right: -5%;
+            display: block;
+            content: '';
+            background: url("images/lotus.png") no-repeat;
+            background-size: 100%;
+            width: 41%;
+            background-position: bottom;
+            height: 100%;
+            transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+        }
+    }
+}
