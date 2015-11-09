@@ -7362,38 +7362,42 @@ input.quantity {
 /* line 236, sass/_partials/_globals.scss */
 .term-body .category-container {
   background: url("images/category-bkg.jpg") no-repeat;
-  background-size: cover; }
+  background-size: 83%;
+  background-attachment: fixed;
+  background-position: right center; }
 
-/* line 240, sass/_partials/_globals.scss */
+/* line 242, sass/_partials/_globals.scss */
 .term-hair .category-container {
   background: url("images/hair.jpg") no-repeat;
-  background-size: cover;
-  background-position: bottom; }
+  background-size: 83%;
+  background-attachment: fixed;
+  background-position: right bottom; }
 
-/* line 245, sass/_partials/_globals.scss */
+/* line 248, sass/_partials/_globals.scss */
 .term-face .category-container {
   background: url("images/woman-mask.jpg") no-repeat;
-  background-size: cover;
-  background-position: bottom; }
+  background-size: 83%;
+  background-attachment: fixed;
+  background-position: right center; }
 
-/* line 250, sass/_partials/_globals.scss */
+/* line 254, sass/_partials/_globals.scss */
 .cat-description {
   padding: 0 10%; }
 
 /* no direction */
-/* line 255, sass/_partials/_globals.scss */
+/* line 259, sass/_partials/_globals.scss */
 .page .entry-content {
   padding: 5%;
   min-height: 85vh; }
 
-/* line 259, sass/_partials/_globals.scss */
+/* line 263, sass/_partials/_globals.scss */
 .contact {
   background: url("images/contact-bkg.jpg") no-repeat;
   background-size: cover;
   background-position: bottom right;
   text-align: left;
   position: relative; }
-  /* line 265, sass/_partials/_globals.scss */
+  /* line 269, sass/_partials/_globals.scss */
   .contact:before {
     display: block;
     content: '';
@@ -7403,7 +7407,7 @@ input.quantity {
     position: absolute;
     top: 0;
     left: 0; }
-  /* line 275, sass/_partials/_globals.scss */
+  /* line 279, sass/_partials/_globals.scss */
   .contact:after {
     display: block;
     content: '';
@@ -7415,27 +7419,27 @@ input.quantity {
     right: 0;
     background-size: 80%;
     background-position: top right; }
-  /* line 287, sass/_partials/_globals.scss */
+  /* line 291, sass/_partials/_globals.scss */
   .contact.wholesale {
     min-height: 0; }
-    /* line 290, sass/_partials/_globals.scss */
+    /* line 294, sass/_partials/_globals.scss */
     .contact.wholesale:after {
       background: none; }
-    /* line 293, sass/_partials/_globals.scss */
+    /* line 297, sass/_partials/_globals.scss */
     .contact.wholesale:before {
       background: url("images/wholesale.jpg") no-repeat; }
-    /* line 296, sass/_partials/_globals.scss */
+    /* line 300, sass/_partials/_globals.scss */
     .contact.wholesale strong, .contact.wholesale .wpcf7-list-item-label {
       color: white; }
-    /* line 299, sass/_partials/_globals.scss */
+    /* line 303, sass/_partials/_globals.scss */
     .contact.wholesale input[type="submit"] {
       background: #fa94e0;
       color: black;
       font-weight: bold; }
-  /* line 305, sass/_partials/_globals.scss */
+  /* line 309, sass/_partials/_globals.scss */
   .contact .row {
     margin: 10px 0; }
-  /* line 308, sass/_partials/_globals.scss */
+  /* line 312, sass/_partials/_globals.scss */
   .contact strong {
     font-size: 1.6rem;
     width: 88px;
@@ -7444,16 +7448,16 @@ input.quantity {
     padding: 0 11px 0 0px;
     vertical-align: top; }
 
-/* line 317, sass/_partials/_globals.scss */
+/* line 321, sass/_partials/_globals.scss */
 .wholesale-top {
   background: url("images/wholesale-top.jpg") no-repeat;
   background-size: cover;
   padding: 5%;
   position: relative; }
-  /* line 323, sass/_partials/_globals.scss */
+  /* line 327, sass/_partials/_globals.scss */
   .wholesale-top .inner {
     position: relative; }
-  /* line 327, sass/_partials/_globals.scss */
+  /* line 331, sass/_partials/_globals.scss */
   .wholesale-top:before {
     display: block;
     content: '';
@@ -7464,29 +7468,29 @@ input.quantity {
     height: 100%;
     background: rgba(255, 255, 255, 0.4); }
 
-/* line 338, sass/_partials/_globals.scss */
+/* line 342, sass/_partials/_globals.scss */
 .wpcf7-list-item-label {
   font-weight: bold;
   font-size: 1.6rem; }
 
-/* line 342, sass/_partials/_globals.scss */
+/* line 346, sass/_partials/_globals.scss */
 .entry-content .inner {
   position: relative;
   z-index: 9; }
 
-/* line 346, sass/_partials/_globals.scss */
+/* line 350, sass/_partials/_globals.scss */
 .entry-content h1 {
   font-weight: bold;
   margin-bottom: 4%; }
 
-/* line 350, sass/_partials/_globals.scss */
+/* line 354, sass/_partials/_globals.scss */
 .entry-content input[type="text"], textarea, input[type="email"] {
   width: 300px;
   max-width: 100%;
   border: 1px solid black;
   max-height: 130px; }
 
-/* line 356, sass/_partials/_globals.scss */
+/* line 360, sass/_partials/_globals.scss */
 .entry-content input[type="submit"] {
   display: inline-block;
   padding: 10px 15px;
@@ -7495,12 +7499,12 @@ input.quantity {
   text-transform: uppercase;
   border: 0; }
 
-/* line 365, sass/_partials/_globals.scss */
+/* line 369, sass/_partials/_globals.scss */
 .shipping-outer img {
   width: 100%;
   height: auto; }
 
-/* line 370, sass/_partials/_globals.scss */
+/* line 374, sass/_partials/_globals.scss */
 .quote {
   color: #bfa061;
   font-weight: bold;

@@ -26,6 +26,8 @@ remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_l
 remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20 );
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+// Display 24 products per page. Goes in functions.php
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 9999;' ), 20 );
 
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 

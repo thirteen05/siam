@@ -235,17 +235,21 @@ input.quantity{
 }
 .term-body .category-container{
     background: url('images/category-bkg.jpg') no-repeat;
-    background-size: cover;
+    background-size: 83%;
+    background-attachment: fixed;
+    background-position: right center;
 }
 .term-hair .category-container{
     background: url('images/hair.jpg') no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-size: 83%;
+    background-attachment: fixed;
+    background-position: right bottom;
 }
 .term-face .category-container{
     background: url('images/woman-mask.jpg') no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-size: 83%;
+    background-attachment: fixed;
+    background-position: right center;
 }
 .cat-description{
     padding: 0 10%;
